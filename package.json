@@ -1,0 +1,15 @@
+{
+  "name": "mysql-conection",
+  "version": "1.0.0",
+  "description": "Conexión a una base de datos MySQL",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Luis-Salinas-SD",
+  "license": "ISC",
+  "dependencies": {
+    "mysql": "^2.18.1",
+    "nodemon": "^2.0.15"
+  }
+}
