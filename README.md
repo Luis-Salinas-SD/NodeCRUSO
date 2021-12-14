@@ -19,3 +19,8 @@ $ npm uninstall <nombre_modulo>
 
 $ npm uninstall bootstrap
 ```
+### Ejecutar proyecto
+
+```bash
+$ node  <archivo.js>
+```
