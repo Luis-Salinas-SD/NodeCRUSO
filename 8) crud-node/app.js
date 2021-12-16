@@ -32,15 +32,15 @@ conexion.connect(
     }
 }) */
 
-//! + + + + + + Inseertar + + + + + +
+//! + + + + + + Insertar + + + + + +
 
-/* conexion.query('INSERT INTO usuarios (nombre, edad, numero, departamento) VALUES ("Lucas", "18", "004", "soporte")', function (error, results,) {
+conexion.query('INSERT INTO usuarios (nombre, edad, numero, departamento) VALUES ("Sergio", "28", "008", "sistemas")', function (error, results,) {
     if (error) {
         throw error;
     } else {
         console.log('Registro Agregado!', results);
     }
-}) */
+})
 
 //% Editar
 
@@ -53,11 +53,11 @@ conexion.connect(
 
 //& Eliminar
 
-conexion.query('DELETE  FROM usuarios WHERE nombre = "José"', function (error, results) {
+/* conexion.query('DELETE  FROM usuarios WHERE nombre = "Lucas"', function (error, results) {
     if (error) throw error;
-    console.log('rEGISTRO eLIMINADO', results);
+    console.log('Registro Eliminado', results);
 
-})
+}) */
 
 
 // Finaliza la conección

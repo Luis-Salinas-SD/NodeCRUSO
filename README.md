@@ -35,3 +35,15 @@ $ node  <archivo.js>
 ```bash
 $ npm i nodemon -g
 ```
+
+##### Uso del modulo nodemon
+
+```bash
+$ nodemon <archivo.js>
+```
+
+### Instalar ExpressJS
+
+```bash
+$ npm i express
+```
